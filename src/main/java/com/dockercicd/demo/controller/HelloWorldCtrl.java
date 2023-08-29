@@ -11,6 +11,6 @@ public class HelloWorldCtrl {
 	@RequestMapping(value="/wish/{name}", produces="application/json")
 	public String getWishesByName(@PathVariable String name)
 	{
-		return "Hello, "+name+"! Have a Great Day!";
+		return "Hello Madam, "+name+"! Have a Great Day!";
 	}
 }
